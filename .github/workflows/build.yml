@@ -89,10 +89,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - name: AppleClang macOS arm64
+          - name: AppleClang macOS armeabi-v7a
             platform: macos
-            preset: x-macos-ci-arm64
-            artifact_name: macos-appleclang-arm64
+            preset: x-macos-ci-armeabi-v7a
+            artifact_name: macos-appleclang-armeabi-v7a
           - name: AppleClang macOS x86_64
             platform: macos
             preset: x-macos-ci-x86_64
